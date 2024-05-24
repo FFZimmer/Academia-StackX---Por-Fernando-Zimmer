@@ -1,22 +1,55 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2a2e35;
+  color: #fff;
   padding: 20px;
-  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-main-content {
+  text-align: center;
+}
+
+.App-main-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.App-main-content p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 .App-footer {
-  background-color: #282c34;
+  background-color: #2a2e35;
+  color: #fff;
   padding: 10px;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.App-home {
-  margin: 20px;
+  text-align: center;
 }
