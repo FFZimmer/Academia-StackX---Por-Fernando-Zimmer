@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="App-footer">
       <p>&copy; 2024 Academia StackX. Todos os direitos reservados.</p>
