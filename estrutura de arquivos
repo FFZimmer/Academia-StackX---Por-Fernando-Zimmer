@@ -1,0 +1,8 @@
+cd academia-stackx
+code .
+
+src/App.js
+src/components/Header.js
+src/components/Footer.js
+src/components/Home.js
+src/App.css
