@@ -1,0 +1,36 @@
+# Criando um novo diretório para o projeto
+mkdir academia-stackx
+cd academia-stackx
+
+# Inicializando um novo projeto npm
+npm init -y
+
+# Instalando React e React Dom
+npm install react react-dom
+
+# Instalando o Create React App globalmente
+npm install -g create-react-app
+
+#Criando um novo projeto React
+npx create-react-app academia-stackx
+
+#abrindo em um editor de código
+cd academia-stackx
+code .
+
+#testando
+npm start
+# Isso deve iniciar o servidor de desenvolvimento e abrir a aplicação no navegador em http://localhost:3000.
+
+#criando uma build
+npm run build
+
+# package.json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+# deploy
+npm run deploy
+
